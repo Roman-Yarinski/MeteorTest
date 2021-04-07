@@ -1,4 +1,6 @@
 import assert from "assert";
+import { Meteor } from 'meteor/meteor';
+import '/imports/api/tasksMethods.tests.js';
 
 describe("TodoList", function () {
   it("package.json has correct name", async function () {
